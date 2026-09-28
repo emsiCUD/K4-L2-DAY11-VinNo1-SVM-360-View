@@ -1,0 +1,23 @@
+{
+  "members": [
+    "2A202602047",
+    "2A202602149",
+    "2A202602182"
+  ],
+  "assignments": {
+    "2A202602047": "B2-mid",
+    "2A202602149": "B4-mid",
+    "2A202602182": "B3-dense"
+  },
+  "self": "2A202602182",
+  "slice": "B3-dense",
+  "degrade": [
+    "k12"
+  ],
+  "current_slice": "B3-dense",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_145860.jpg:1"
+  ]
+}

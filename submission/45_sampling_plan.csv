@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,Trung bình: đường thẳng ban ngày; vật ở giữa ảnh ít méo,Đủ mẫu nền để đo độ khớp cơ bản; ít hơn hard vì lỗi dễ phát hiện
+front,hard,30,Cao: lóa nắng/ngược sáng; đám đông xe hai-ba bánh chồng nhau; vật cao sát rìa vòng kính,Lóa và vật chồng nhau là nơi box lệch và thiếu vật nhiều nhất; cần đủ mẫu để thấy lỗi lặp lại
+rear,normal,20,Trung bình: đỗ/lùi chậm; cảnh ít vật,Mẫu nền cho camera sau; cảnh đơn giản nên cần ít frame hơn
+rear,hard,35,Rất cao: người/trẻ em/vật thấp sát cản sau khi lùi; ban đêm; cản xe ego chiếm đáy ảnh,Sai ở đây ảnh hưởng trực tiếp thao tác lùi; phân bổ hard lớn nhất để soát ego_body/ignore và vật gần
+left,normal,20,Trung bình: lề đường và xe đỗ song song,Mẫu nền camera gương trái; phần lớn cảnh lặp lại
+left,hard,25,Cao: méo rìa mạnh; thân xe ego lớn; vật bị cắt ở seam trái-trước và trái-sau; curb sát xe,Kiểm truncated/edge_zone và cách xử lý vật xuất hiện ở hai camera tại seam
+right,normal,20,Trung bình: làn bên phải và lề đường,Mẫu nền camera gương phải; cân với camera trái
+right,hard,25,Cao: xe máy vượt sát bên phải; méo rìa; seam phải-trước và phải-sau; bóng đổ/mặt đường ướt,Kiểm vật nhỏ sát rìa và seam; cần riêng vì phân bố vật khác camera trái

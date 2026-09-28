@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: ddc3e2cfbce677dcf459051a0dc620c560f13c936580a87a6f7207c097a36788
+code: DDC3-E2CF
+locked_at: 2026-09-28T17:17:32+07:00
+shapes: box=8, polygon=3
+prefill_kept: 0
+prefill_edited: 0
+new: 8
