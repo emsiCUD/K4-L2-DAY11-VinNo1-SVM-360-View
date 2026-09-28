@@ -11,7 +11,7 @@
   (`mode --members 2A202602047,2A202602149,2A202602182 --self 2A202602182`)
 - Kênh trao đổi nội bộ: Discord
 - Đại diện nộp (vai C): Nguyễn Trọng Minh Đức, 2A202602182
-- Commit chốt bài: (điền sau khi push)
+- Commit chốt bài: `2880c1d` — https://github.com/emsiCUD/K4-L2-DAY11-VinNo1-SVM-360-View/commit/2880c1dacf1956e8b10acdc4d1f38d9dad60c765 (commit sau chỉ cập nhật dòng này)
 
 ## 2. Ba vai chính
 
@@ -55,11 +55,11 @@ Hai thành viên còn lại:
 
 ## 5. Xác nhận trước khi nộp
 
-- [ ] A xác nhận nhãn và export đúng phiên bản: [Tên / bằng chứng]
-- [ ] B xác nhận đã QA độc lập trước reference và kiểm lại ca sửa: [Tên / bằng chứng]
-- [ ] C xác nhận báo cáo đúng bản khóa, các file đầy đủ và check exit 0: [Tên / bằng chứng]
-- [ ] manifest.json tại commit chốt có failed_gates rỗng.
-- [ ] Repo nhóm Public, ảnh và các bằng chứng mở được.
-- [ ] C đã push và gửi link repo nhóm + commit qua kênh lớp công bố.
+- [x] A xác nhận nhãn và export đúng phiên bản: [Tên / bằng chứng]
+- [x] B xác nhận đã QA độc lập trước reference và kiểm lại ca sửa: [Tên / bằng chứng]
+- [x] C xác nhận báo cáo đúng bản khóa, các file đầy đủ và check exit 0: [Tên / bằng chứng]
+- [x] manifest.json tại commit chốt có failed_gates rỗng.
+- [x] Repo nhóm Public, ảnh và các bằng chứng mở được.
+- [x] C đã push và gửi link repo nhóm + commit qua kênh lớp công bố.
 
 Chỉ đánh dấu việc đã kiểm thật. Nhóm nộp một hồ sơ chung; check không tự chấm đóng góp từng người. Giữ nguyên header/các cột enum của findings.csv; tên người được ghi trong tài liệu này hoặc phần note thích hợp.
